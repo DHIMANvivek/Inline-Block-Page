@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font: 400 14px/24px 'Open Sans', sans-serif;
+}
+
+.navbar {
+  width: 0 auto;
+  list-style-type: none;
+  text-align: center;
+  background-color: black;
+}
+
+.navbar ul {
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(197, 160, 89);
+    border-top-color: rgb(197, 160, 89);
+    border-right-color: rgb(197, 160, 89);
+    border-left-color: rgb(197, 160, 89);
+    max-height: 116px;
+}
+
+
+.container {
+    position: relative;
+}
+
+/* .image-bg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+.title {
+    font-size: 48px;
+    margin-bottom: 49px;
+    font: 300 30px/30px 'Oswald', sans-serif;
+}
+
+/* .box {
+    height: 100vh;
+} */
+.row {
+  max-width: 1170px;
+  margin-inline: -15px;
+}
+
+.parent-container {
+    background-color: #000000;
+    width: 100%;
+    margin-inline: auto;
+    padding-block: 80px;
+    padding-inline: 10%;
+}
+
+.p-common {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.image-cover {
+    background-size: cover;
+    /* width: 360px;
+    height: 245px; */
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    margin: -4px;
+    width: 33.3%;
+    padding-inline: 15px;
+    text-align: center;
+    transition: border-color 0.3s ease 0s;
+}
+
+.p-common h2 {
+  color: #fff;
+}
+
+.card {
+    /* background-color: #F2F2F2; */
+    border-radius: 10px;
+    /* padding: 15px; */
+    text-align: center;
+}
+
+.description p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ccc;
+    font-family: "Open Sans";
+}
+
+.btn-row {
+    background-color: #c5a059;
+    float: left;
+    display: block;
+    padding-block: 10%;
+    width: 100%;
+    padding: 7px 0;
+}
+
+.box:hover {
+  border-color: #000;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.box:hover img {
+  transform: scale(1.1);
+}
+
+.box .description h2 {
+    font: 400 24px 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.box:hover h2{
+  color: #c5a059;
+}
+
+.navbar ul li:hover {
+  color: #c5a059;
+}
+
+.box:hover span{
+  color: whitesmoke;
+}
+
+.description {
+    text-align: center;
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+    background: #1f1f1f;
+}
+
+.icons {
+  margin-top: 10px;
+  width: 100%;
+  max-height: 67px;
+  background-color: #c5a059;
+}
+
+.views-icon,
+.share-icon {
+  margin-right: 10px;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.full-container {
+    display: block;
+    height: 100vh;
+    background-image: url(images/inner-banner.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: center;
+    color: white;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.front {
+    font: 400 60px/50px 'Montserrat', sans-serif !important;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    font-size: 55px;
+    margin-bottom: 22px;
+}
+
+.front-1 {
+    font: 400 60px/50px 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    font-size: 55px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+
+.back-side {
+    color: #c5a059;
+    z-index: 0;
+    font-weight: 700;
+    font-size: 150px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.sub-title {
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #c5a059;
+    margin-bottom: 50px;
+}
+
+.intro {
+    max-width: 640px;
+    margin: 50px auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.navbar li {
+    font-size: 19px;
+    color: #ccc;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 28px 24px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-block-end: 18px;
+}
+
+/* .container ul {
+    float: left;
+    width: 100%;
+    background: #000;
+    border-bottom: 5px solid;
+    border-color: #c5a059;
+} */
+
+.navbar img {
+    width: 205px;
+    vertical-align: middle;
+    transform: translateY(27%);
+}
+
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+    padding: 0 23px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
